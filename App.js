@@ -3,9 +3,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Principal from './src/Telas/Principal';
-import Carnaval from './src/Telas/Carnaval';
-import FestaJunina from './src/Telas/FestaJunina';
-import Halloween from './src/Telas/Halloween';
+import PontosTuristicos from './src/Telas/PontosTuristicos';
+import Roteiro from './src/Telas/Roteiro';
+import Preferencias from './src/Telas/Preferencias';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,35 +17,35 @@ export default function App() {
           name="Principal"
           component={Principal}
           options={{
-            title: 'Bem Vindo(a)',
-            headerStyle: { backgroundColor: '#111' },
+            title: 'Curitiba Explorer',
+            headerStyle: { backgroundColor: '#18392b' },
             headerTintColor: '#fff',
           }}
         />
         <Stack.Screen
-          name="Carnaval"
-          component={Carnaval}
+          name="PontosTuristicos"
+          component={PontosTuristicos}
           options={{
-            title: 'Carnaval',
-            headerStyle: { backgroundColor: 'red' },
-            headerTintColor: '#000',
+            title: 'Pontos Turísticos',
+            headerStyle: { backgroundColor: '#0f5132' },
+            headerTintColor: '#fff',
           }}
         />
         <Stack.Screen
-          name="FestaJunina"
-          component={FestaJunina}
+          name="Roteiro"
+          component={Roteiro}
           options={{
-            title: 'Festa Junina',
-            headerStyle: { backgroundColor: '#f6b93b' },
-            headerTintColor: '#000',
+            title: 'Roteiro do Dia',
+            headerStyle: { backgroundColor: '#664d03' },
+            headerTintColor: '#fff',
           }}
         />
         <Stack.Screen
-          name="Halloween"
-          component={Halloween}
+          name="Preferencias"
+          component={Preferencias}
           options={{
-            title: 'Halloween',
-            headerStyle: { backgroundColor: '#2d3436' },
+            title: 'Preferências',
+            headerStyle: { backgroundColor: '#084298' },
             headerTintColor: '#fff',
           }}
         />
