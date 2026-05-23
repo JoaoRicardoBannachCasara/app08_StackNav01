@@ -1,10 +1,13 @@
 {
   "expo": {
-    "name": "app08_StackNav_03",
-    "slug": "app08-stacknav-03",
+    "name": "app08_StackNav_01",
+    "slug": "app08-stacknav-01",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": ["**/*"]
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
